@@ -1,0 +1,17 @@
+variable "resource_group_name" {}
+variable "location" {}
+variable "vnet_name" {}
+variable "subnet_name" {}
+variable "subnet_address" {}
+variable "vm_prefix" {}
+variable "vm_count" {}
+variable "vm_size" {}
+variable "admin_username" {}
+variable "admin_password" {}
+variable "os_publisher" {}
+variable "os_offer" {}
+variable "os_sku" {}
+variable "public_ip_name" {}
+variable "lb_name" {}
+variable "lb_frontend_name" {}
+variable "frontend_ip_configuration_name" {}
